@@ -3,11 +3,11 @@ from selenium.webdriver.support.ui import WebDriverWait
 import sys
 
 ff = Firefox(capabilities={"marionette":True})
-ff.get("http://messagerie.algerian-radio.dz")
+ff.get("xxx")
 
 def login():
-    ff.find_element_by_name("_pass").send_keys("yassineradio")
-    ff.find_element_by_name("_user").send_keys("a.chaouche@algerian-radio.dz")
+    ff.find_element_by_name("_pass").send_keys("xxx")
+    ff.find_element_by_name("_user").send_keys("xxx")
     ff.find_element_by_name("form").submit()
 
 def contact():
